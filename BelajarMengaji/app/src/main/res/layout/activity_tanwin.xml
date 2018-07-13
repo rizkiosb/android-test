@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/activity_tanwin"
+    tools:context="com.example.asus_pc.belajarmengaji.TanwinActivity">
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="30dp"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/Tanwin_fathah"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/tanwin_fathah" />
+
+            <ImageButton
+                android:id="@+id/Tanwin_kasroh"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/tanwin_kasroh" />
+            <ImageButton
+                android:id="@+id/Tanwin_dhomah"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/tanwin_dhomah"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back" />
+    <!--<ImageButton-->
+        <!--android:id="@+id/buttonExit"-->
+        <!--android:layout_width="70dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@drawable/exit" />-->
+</RelativeLayout>

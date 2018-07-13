@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/activity_main"
+    tools:context="com.example.asus_pc.belajarmengaji.MainActivity">
+
+    <ImageButton
+        android:id="@+id/judul"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/judul" />
+
+    <ImageButton
+        android:id="@+id/buttonMulai"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/buttonExit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/mulai" />
+    <!--<ImageButton-->
+        <!--android:id="@+id/buttoninfo"-->
+        <!--android:layout_width="70dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@drawable/info" />-->
+    <ImageButton
+        android:id="@+id/buttonExit"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/exit" />
+</RelativeLayout>
